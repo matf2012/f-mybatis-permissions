@@ -1,0 +1,7 @@
+## test file 002
+
+let obj = seq.map();
+obj.a = '1';
+obj.b = '2';
+println(obj);
+return obj;

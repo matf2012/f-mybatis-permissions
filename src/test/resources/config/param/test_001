@@ -1,0 +1,19 @@
+## test param
+
+let ret = seq.map();
+base = tuple(10,18,15);
+
+if level == '01' {
+    println('级别是 1');
+    ret.rate = base[0];
+} elsif level == '02'{
+    println('级别是 2');
+    ret.rate = base[1];
+} elsif level == '03'{
+    println('级别是 3');
+    ret.rate = base[2];
+} else {
+    println('级别 无法识别');
+    ret.rate = base[2];
+}
+return ret;
